@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #333;
+  padding: 20px 0;
+}
+.navbar .menus {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.navbar .menus .menu {
+  font-size: 18px;
+  color: beige;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar .menus .menu:hover {
+  color: #ff0000;
+}/*# sourceMappingURL=style.css.map */

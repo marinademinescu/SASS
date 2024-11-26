@@ -1,0 +1,26 @@
+$navbar-color: #333;
+$menus-hover-color: #ff0000;
+$font-size: 18px;
+
+.navbar {
+    background-color: $navbar-color;
+    padding: 10px 0;
+
+    .menus {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+
+        .menu {
+            font-size: $font-size;
+            color: beige;
+            text-decoration: none;
+            padding: 10px;
+
+            &:hover {
+                color: $menus-hover-color;
+            }
+        }
+    }
+}
