@@ -1,0 +1,26 @@
+$primary-color: #00ff00;
+$font-size: 30px;
+$background-color: #bbcc00;
+
+h1 {
+    text-align: center;
+    color: $primary-color;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenitore {
+    background-color: $background-color;
+    display: inline-block;
+    padding: 100px;
+   
+
+     p {
+        font-size: $font-size;
+        padding: 20px;
+ }
+}
+
+img {
+    display: block;
+    margin: 15px auto;
+}
