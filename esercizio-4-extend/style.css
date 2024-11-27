@@ -1,0 +1,24 @@
+.menus .menu:last-child {
+  background-color: #e7e7e7;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.menus .menu {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.menus .menu:hover {
+  color: red;
+}
+.menus .menu:last-child {
+  border-color: #333333;
+  border-style: solid;
+  border-width: 3px;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */
