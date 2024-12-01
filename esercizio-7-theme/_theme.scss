@@ -1,0 +1,31 @@
+@import 'colors';
+
+
+// Mixin per il tema navbar
+@mixin navbar-theme ($theme: light) {
+    @if $theme == light {
+        background-color: $sfondo-chiaro;
+        color: $text-chiaro;
+
+        .navbar-link {
+            color: $link-chiaro;
+
+            &:hover {
+                color: darken($link-chiaro, 10%);
+            }
+        }
+    } @else if $theme == dark {
+
+        background-color: $sfondo-scuro;
+        color: $text-scuro;
+
+
+        .navbar-link {
+            color: $link-scuro;
+
+            &:hover {
+                color: $link-scuro-hover;
+            }
+        }
+    }
+}
