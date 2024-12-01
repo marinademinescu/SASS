@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container .item {
+  width: 500px;
+  height: 600px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: brown;
+  font-size: 40px;
+  border: 3px solid black;
+}
+.container .item:nth-child(1) {
+  background-color: #00f0f0;
+}
+.container .item:nth-child(2) {
+  background-color: #444;
+}/*# sourceMappingURL=style.css.map */
