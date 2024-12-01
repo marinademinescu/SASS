@@ -1,0 +1,32 @@
+ @use 'scss/colors' as col;
+ @use 'scss/functions' as func;
+
+ $base-font-size: 16px;
+
+ body {
+     background-color: col.$background-color;
+     color: col.$text-color;
+     font-size: func.px-to-em(16px);
+ }
+
+ h1 {
+     font-size: func.px-to-em(52px);
+     color: col.$primary-color;
+ }
+
+ h2 {
+     font-size: func.px-to-em(44px);
+     color: col.$secondary-color;
+ }
+
+ p {
+     font-size: func.px-to-em(38px);
+     color: col.$text-color;
+ }
+
+ footer {
+     background-color: col.$footer-background-color;
+     color: col.$footer-text-color;
+     padding: 2em;
+     text-align: center;
+ }
