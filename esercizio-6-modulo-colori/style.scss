@@ -1,0 +1,68 @@
+@import '_colori';
+
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+header {
+    background-color: $color-1;
+    padding: 10px;
+
+    h1 {
+        text-align: center;
+
+    }
+
+    p {
+        font-size: 2em;
+    }
+    a {
+        color: $color-3;
+        font-size: 3em;
+
+        &:hover {
+            color:green;
+        }
+    }
+}
+
+
+section {
+background-color: $color-2;
+padding: 15px;
+margin: 10px 0;
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    color: $color-1;
+    font-size: 1em;
+}
+
+.Invia {
+    display: block;
+    margin:  2px auto;
+    padding: 5px 15px;
+    border: 2px solid red;
+
+    &:hover {
+        color: white;
+        background-color: black;
+        font-size: 20px;
+    }
+}
+
+}
+
+footer {
+    background-color: $footer-color;
+    padding: 20px;
+    color: $color-2;
+    font-size: 20px;
+    text-align: center;
+}

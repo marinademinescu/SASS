@@ -1,0 +1,56 @@
+body {
+  margin: 10px;
+  padding: 10px;
+  background-color: #d8e1e4;
+  color: #a16026;
+}
+
+header {
+  background-color: #3498db;
+  padding: 10px;
+}
+header h1 {
+  text-align: center;
+}
+header p {
+  font-size: 2em;
+}
+header a {
+  color: #e74c3c;
+  font-size: 3em;
+}
+header a:hover {
+  color: green;
+}
+
+section {
+  background-color: #2ecc71;
+  padding: 15px;
+  margin: 10px 0;
+}
+section h2 {
+  font-size: 1.5em;
+}
+section p {
+  color: #3498db;
+  font-size: 1em;
+}
+section .Invia {
+  display: block;
+  margin: 2px auto;
+  padding: 5px 15px;
+  border: 2px solid red;
+}
+section .Invia:hover {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #7543e0;
+  padding: 20px;
+  color: #2ecc71;
+  font-size: 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
