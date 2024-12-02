@@ -1,0 +1,29 @@
+$colors: #ff00ff, #00ff00, #0000ff, #ff2415;
+
+@each $index, $color in (1, 2, 3, 4) {
+    .item-#{$index} {
+      background-color: nth($colors, $index);
+    }
+  }
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        display: block;
+        border: 3px solid black;
+        padding: 20px;
+        color: white;
+        &:hover {
+            opacity: 0.8;
+        }
+
+    }
+
+}
